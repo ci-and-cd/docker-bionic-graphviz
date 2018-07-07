@@ -1,6 +1,6 @@
 # docker-bionic-graphviz
 
-Graphviz on Ubuntu 18.04 (bionic) for multi-stage docker image build.
+Graphviz (for maven site javadoc) on Ubuntu 18.04 (bionic) for multi-stage docker image build.
 
 Dockerfile [ci-and-cd/docker-bionic-graphviz on Github](https://github.com/ci-and-cd/docker-bionic-graphviz)
 
