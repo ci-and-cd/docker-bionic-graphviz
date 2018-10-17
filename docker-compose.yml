@@ -9,7 +9,7 @@ services:
       args:
       #- IMAGE_ARG_APT_MIRROR=${IMAGE_ARG_APT_MIRROR}
       - IMAGE_ARG_APT_MIRROR=${IMAGE_ARG_APT_MIRROR:-mirrors.163.com}
-    image: ${IMAGE_PREFIX:-cirepo}/${IMAGE_NAME:-graphviz}:${IMAGE_TAG:-latest-bionic}
+    image: ${IMAGE_PREFIX:-cirepo/}${IMAGE_NAME:-graphviz}:${IMAGE_TAG:-latest-bionic}
   #docker-compose build dumper
   dumper:
     build:
@@ -21,4 +21,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile_archive
-    image: ${IMAGE_PREFIX:-cirepo}/${IMAGE_NAME:-graphviz}:${IMAGE_TAG:-latest-bionic}-archive
+    image: ${IMAGE_PREFIX:-cirepo/}${IMAGE_NAME:-graphviz}:${IMAGE_TAG:-latest-bionic}-archive
